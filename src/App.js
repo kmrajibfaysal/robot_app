@@ -18,6 +18,7 @@ class App extends Component {
         .includes(this.state.searchfield.toLowerCase());
     });
     console.log(filteredRobots);
+    console.log("hello");
   }
   render() {
     return (
